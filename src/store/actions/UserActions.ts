@@ -7,7 +7,7 @@ export function getUsers(email: any, password: any) {
     return async (dispatch: Dispatch<UserActions>) => {
        try {
            dispatch({type: UserTypes.GET_USER_LOADING})
-           const user = await axios.post("https://processing-server-ashy.vercel.app/api/checkUser", {
+           const user = await axios.post("https://processing-server-1sd1.vercel.app/api/checkUser", {
                email: email,
                password: password,
            });
