@@ -16,7 +16,7 @@ export default function Login() {
                 <h3>Авторизация</h3>
                 <div className={styles.profile_inputs}>
                     <div className={styles.email}>
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Логин</label>
                         <input onChange={(event)=> {
                             emailInput(event.target.value)
                         }} value={email} className={styles.input_login} type="text" placeholder={"janedoe@gmail.com"}/>
