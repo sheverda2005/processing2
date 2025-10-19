@@ -1,0 +1,143 @@
+.setting_content {
+  margin: 20px;
+  padding: 10px 40px;
+  width: 75%;
+  margin-top: 150px;
+  margin-left: 22%;
+  border-radius: 10px;
+  background-color: rgb(14, 23, 38);
+  display: flex;
+  flex-direction: column;
+}
+.setting_content h1 {
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.setting_content p {
+  font-size: 15px;
+}
+.setting_content h2 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.setting_content button {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #333333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.setting_content button:hover {
+  transition: all 0.3s ease;
+}
+
+.setting_content_input_item {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-right: 20px;
+  margin: 10px 20px 10px 0;
+}
+.setting_content_input_item label {
+  margin-bottom: 10px;
+}
+.setting_content_input_item input {
+  background-color: #1a2e4b;
+  border: 1px solid #1a2e4b;
+  color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: no-drop;
+}
+
+.span_KYC {
+  color: green;
+  font-weight: 500;
+}
+
+.setting_content_input_items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  margin: 20px 0;
+  border-bottom: 1px solid #1a1f3b;
+}
+
+.inputs_account_settings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.account_input_item {
+  border-bottom: 1px solid #1a1f3b;
+  width: 44%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.device_management {
+  width: 100px;
+}
+
+.adress_management {
+  background-color: #3a6fbd !important;
+  border: #3a6fbd !important;
+  color: white !important;
+  font-size: 14px !important;
+  box-shadow: 0 -2px 4px #2195f1, 0 2px 4px #2195f1 !important;
+}
+
+.item_text {
+  display: flex;
+  flex-direction: column;
+}
+.item_text p {
+  font-size: 19px;
+  font-weight: 500;
+}
+.item_text span {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  width: 80%;
+}
+
+@media (max-width: 1410px) {
+  .setting_content_input_item {
+    width: 47%;
+  }
+}
+@media (max-width: 970px) {
+  .setting_content {
+    width: 100%;
+    padding: 10px;
+    margin: 150px 10px 0 10px;
+  }
+}
+@media (max-width: 765px) {
+  .setting_content h1 {
+    text-align: center;
+  }
+  .setting_content_input_item {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .account_input_item {
+    width: 100%;
+    padding: 30px 0;
+  }
+}
+
+/*# sourceMappingURL=settingContent.module.css.map */

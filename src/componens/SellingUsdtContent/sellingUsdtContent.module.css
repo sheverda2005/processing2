@@ -1,0 +1,112 @@
+.selling_usdt {
+  margin: 20px;
+  margin-left: 22%;
+  margin-top: 150px;
+  padding: 10px 40px 40px 40px;
+  width: 75%;
+  border-radius: 10px;
+  background-color: rgb(14, 23, 38);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.selling_usdt h1, .selling_usdt p {
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.selling_usdt_inputs {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+.selling_usdt_inputs input {
+  margin-right: 20px;
+  width: 20%;
+  min-width: 100px;
+  background-color: #1a2e4b;
+  border: 1px solid #1a2e4b;
+  color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.selling_usdt_inputs button {
+  background-color: #2195f1;
+  border: 1px solid #2195f1;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 80px;
+  cursor: pointer;
+  box-shadow: 0 -2px 4px #2195f1, 0 2px 4px #2195f1;
+  transition: all 0.3s ease;
+}
+.selling_usdt_inputs button:hover {
+  box-shadow: 0 -4px 4px #2195f1, 0 4px 4px #2195f1;
+  transition: all 0.3s ease;
+}
+
+.list_of_selling {
+  display: flex;
+  margin-top: 80px;
+  list-style-type: none;
+  border-bottom: 1px solid #1a2e4b;
+}
+.list_of_selling li {
+  padding: 15px 23px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.item_active {
+  color: #b81d29;
+  background-color: #1a1f3b;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 970px) {
+  .selling_usdt {
+    width: 100%;
+    margin: 150px 10px 0 10px;
+  }
+}
+@media (max-width: 800px) {
+  .selling_usdt_inputs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .selling_usdt_inputs input {
+    width: 40%;
+    margin: 15px 10px 0 10px;
+  }
+  .selling_usdt_inputs button {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+  }
+  .selling_usdt h1 {
+    text-align: center;
+  }
+  .list_of_selling {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 580px) {
+  .list_of_selling {
+    overflow: auto;
+    font-size: 15px;
+  }
+}
+@media (max-width: 520px) {
+  .selling_usdt_inputs input {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=sellingUsdtContent.module.css.map */

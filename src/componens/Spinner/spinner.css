@@ -1,0 +1,20 @@
+.loader {
+    width: 35px;
+    height: 35px;
+    border: 5px solid #0e1726;
+    border-bottom-color: #2195f1;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin-top: 35px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

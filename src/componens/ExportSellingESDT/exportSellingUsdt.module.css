@@ -1,0 +1,58 @@
+.exportSellingUsdtContent {
+  display: flex;
+  align-items: center;
+}
+.exportSellingUsdtContent button {
+  background-color: #2195f1;
+  border: 1px solid #2195f1;
+  padding: 14px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 130px;
+  cursor: pointer;
+  box-shadow: 0 -2px 4px #2195f1, 0 2px 4px #2195f1;
+  transition: all 0.3s ease;
+  margin-top: 49px;
+}
+.exportSellingUsdtContent button:hover {
+  box-shadow: 0 -4px 4px #2195f1, 0 4px 4px #2195f1;
+  transition: all 0.3s ease;
+}
+
+.exportSellingUsdtInputs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 30%;
+}
+.exportSellingUsdtInputs label {
+  margin: 20px 0 10px 0;
+}
+.exportSellingUsdtInputs input {
+  background-color: #1a2e4b;
+  border: 1px solid #1a2e4b;
+  width: 100%;
+  color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 670px) {
+  .exportSellingUsdtContent {
+    flex-direction: column;
+  }
+  .exportSellingUsdtContent .exportSellingUsdtInputs {
+    width: 90%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .exportSellingUsdtContent .exportSellingUsdtInputs label {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=exportSellingUsdt.module.css.map */

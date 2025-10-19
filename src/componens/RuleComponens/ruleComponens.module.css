@@ -1,0 +1,115 @@
+.rule_componens_content {
+  height: 100%;
+  position: fixed;
+  width: 21%;
+  min-width: 200px;
+  margin-top: 136px;
+  background: rgba(174, 174, 174, 0.1);
+  border-right: 0.1px solid rgba(24, 24, 29, 0.3);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(2px);
+  color: #bababa;
+  transition: all 1s ease;
+  z-index: 99;
+}
+.rule_componens_content p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rule_componens_content ul {
+  list-style-type: disc;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.rule_componens_content ul li {
+  margin: 10% 0;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.rule_componens_content ul li:hover {
+  color: #3a6fbd;
+  transition: all 0.2s ease;
+}
+.rule_componens_content ul li a {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  font-weight: inherit;
+}
+
+.active {
+  color: #3a6fbd !important;
+}
+
+.rule_componens_content_active {
+  height: 100%;
+  position: fixed;
+  width: 21%;
+  min-width: 200px;
+  margin-top: 136px;
+  background: rgba(174, 174, 174, 0.1);
+  border-right: 0.1px solid rgba(24, 24, 29, 0.3);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(2px);
+  color: #bababa;
+  transition: all 1s ease;
+  z-index: 99;
+}
+.rule_componens_content_active p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rule_componens_content_active ul {
+  list-style-type: disc;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.rule_componens_content_active ul li {
+  margin: 10% 0;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.rule_componens_content_active ul li:hover {
+  color: #3a6fbd;
+  transition: all 0.2s ease;
+}
+.rule_componens_content_active ul li a {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  font-weight: inherit;
+}
+
+.refresh_p2p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.refresh_p2p img {
+  margin-right: 5%;
+}
+
+.refresh_p2p_title {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  color: #3a6fbd !important;
+}
+
+@media (max-width: 970px) {
+  .rule_componens_content {
+    display: none;
+  }
+  .rule_componens_content_active {
+    display: block;
+    background-color: #0e1726;
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=ruleComponens.module.css.map */

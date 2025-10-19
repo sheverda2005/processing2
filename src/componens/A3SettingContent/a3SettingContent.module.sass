@@ -1,0 +1,225 @@
+.a3SettingContent
+  margin: 20px
+  margin-left: 22%
+  margin-top: 150px
+  padding: 10px 15px
+  width: 75%
+  border-radius: 10px
+  background-color: rgb(14, 23, 38)
+  display: flex
+  flex-direction: column
+  overflow: hidden
+  h1, p
+    font-weight: 300
+  input
+    background-color: #1a2e4b
+    border: 1px solid #1a2e4b
+    color: #ffffff
+    padding: 15px 10px
+    border-radius: 5px
+    outline: none
+    font-size: 16px
+    font-weight: 500
+
+
+.a3SettingsText
+  width: 100%
+  margin-top: 10px
+  display: flex
+  align-items: end
+  flex-direction: column
+  p
+    color: #274671
+    span
+      color: #bababa
+  button
+    margin-top: 15px
+    background-color: #2195f1
+    border: 1px solid #2195f1
+    padding: 10px
+    border-radius: 10px
+    color: #ffffff
+    font-weight: 600
+    cursor: pointer
+    box-shadow: 0 -2px 4px #2195f1, 0 2px 4px #2195f1
+    transition: all 0.3s ease
+    &:hover
+      box-shadow: 0 -4px 4px #2195f1, 0 4px 4px #2195f1
+      transition: all 0.3s ease
+
+.a3SettingsLogsDevices
+  display: flex
+  .a3SettingsLogsDevices_Item
+    margin-top: 40px
+    width: 50%
+    .device_name
+      display: flex
+      flex-direction: column
+      align-items: start
+      margin-left: 10px
+      margin-top: 20px
+      label
+        margin-bottom: 10px
+        font-weight: 400
+        font-size: 16px
+        opacity: .7
+      input
+        width: 90%
+      h2
+        font-weight: 400
+    .log
+      display: flex
+      justify-content: space-between
+      color: #3a6fbd
+      font-weight: 600
+      font-size: 14px
+      border-top: 1px solid #ffffff
+      border-bottom: 1px solid #ffffff
+      padding: 15px 0
+    .log2
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      color: #3a6fbd
+      font-weight: 600
+      font-size: 14px
+      border-top: 1px solid #ffffff
+      border-bottom: 1px solid #ffffff
+      padding: 15px 0
+      margin-top: 20px
+      text-align: center
+      align-items: end
+      width: 96%
+      div
+        width: 20%
+    .active_device
+      margin-left: 10px
+      margin-top: 15px
+      input
+        margin-right: 5px
+    .linking_details
+      margin-top: 20px
+      margin-left: 10px
+      font-weight: 400
+      font-size: 15px
+      img
+        position: absolute
+        right: 10px
+
+.cards_a3
+  margin: 15px 0 0 0
+  border: 1px solid #1a1f3b
+  background-color: #1a2e4b
+  padding: 15px
+  width: 70%
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  cursor: pointer
+
+.content_a3
+  margin-left: 30px
+
+.a3SettingsButtons
+  display: flex
+  flex-direction: column
+  width: 97%
+  margin-top: 30px
+  .button_save
+    background-color: #2195f1
+    border: 1px solid #2195f1
+    padding: 10px
+    border-radius: 10px
+    color: #ffffff
+    font-weight: 600
+    cursor: pointer
+    box-shadow: 0 -1px 2px #2195f1, 0 1px 2px #2195f1
+    transition: all 0.3s ease
+    &:hover
+      box-shadow: 0 -2px 2px #2195f1, 0 2px 2px #2195f1
+      transition: all 0.3s ease
+  .button_cancel
+    background-color: #0e1726
+    border: 1px solid #2195f1
+    padding: 10px
+    border-radius: 10px
+    color: #ffffff
+    font-weight: 600
+    cursor: pointer
+    margin-top: 10px
+    transition: all 0.3s ease
+
+
+
+@media (max-width: 1300px)
+  .a3SettingsLogsDevices
+    flex-direction: column
+  .a3SettingsLogsDevices_Item
+    width: 100% !important
+    justify-content: center
+    text-align: center
+    align-items: center
+    .linking_details
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin: 20px 0 0 0!important
+    .device_name
+      align-items: center!important
+      margin-left: 0!important
+    .log2
+      padding: 0 20px
+      width: 100% !important
+    .active_device
+      margin-left: 0
+    .a3SettingsLogsDevices
+      display: flex
+    .content_a3
+      margin-left: 0
+    .cards_a3
+      width: 90%
+
+
+@media (max-width: 650px)
+  .a3SettingContent
+    h1
+      text-align: center
+  .a3SettingsText
+    margin: 20px 0
+
+
+
+@media (max-width: 970px)
+  .a3SettingContent
+    width: 100%
+    margin: 150px 10px 0 10px
+
+
+@media (max-width: 550px)
+  .a3SettingsLogsDevices
+    .a3SettingsLogsDevices_Item
+      .log
+        font-size: 12px
+      .log2
+        font-size: 12px
+
+@media (max-width: 450px)
+  .a3SettingsLogsDevices
+    .a3SettingsLogsDevices_Item
+      .log
+        font-size: 10px
+      .log2
+        font-size: 10px
+        text-align: center
+        justify-content: start
+
+@media (max-width: 390px)
+  .a3SettingsLogsDevices
+    .a3SettingsLogsDevices_Item
+      .log
+        font-size: 8px
+      .log2
+        font-size: 8px
+        text-align: center
+        justify-content: start
