@@ -46,7 +46,7 @@ export default function BalanceContent() {
                     </tr>
                     <tr>
                         <td>
-                            <img src="/image/Rouble_official_sign.svg" alt="rouble" width={20} height={25}/>
+                            <img src="/image/Hryvnia_symbol.svg" alt="rouble" width={20} height={25}/>
                         </td>
                         <td>{user?.balance ? +course * +user?.balance : user?.balance}</td>
                     </tr>
