@@ -12,14 +12,6 @@ export default function SettingContent() {
                     <input value={user?.login} type="text" readOnly />
                 </div>
                 <div className={styles.setting_content_input_item} >
-                    <label>Телеграм</label>
-                    <input value={user?.telegram} type="text" readOnly/>
-                </div>
-                <div className={styles.setting_content_input_item}>
-                    <label>Ваше ФИО</label>
-                    <input value={user?.name} type="text" readOnly/>
-                </div>
-                <div className={styles.setting_content_input_item} >
                     <label>Email</label>
                     <input placeholder={"Email"} type="text"/>
                 </div>

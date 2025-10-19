@@ -12,6 +12,7 @@ export default function HelloComponent() {
     const {user} = useTypedSelector(state => state.user)
     return (
         <div className={styles.hello_content} >
+        
             <Image src={"/image/email_hello.svg"} alt={"email"} height={250} width={250} />
             <div className={styles.hello_content_text} >
                 <h1  >Привет, {user?.name}!</h1>
