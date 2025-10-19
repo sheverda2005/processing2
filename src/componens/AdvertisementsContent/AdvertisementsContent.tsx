@@ -81,7 +81,14 @@ export default function AdvertisementsContent() {
                                 { name: "UKRSIBBANK", img: "ukrsibbank-icon (1).svg" },
                                 { name: "Райффайзен Банк", img: "raiffeisen.svg" },
                                 { name: "Банк Кредит Дніпро", img: "credit-dnipro-icon.svg" },
-                                { name: "Alliance bank", img: "1725005151.png" },
+                                { name: "А-Банк", img: "Icon.jpeg" },
+                                { name: "Ощадбанк", img: "Oschad_Bank.svg" },
+                                { name: "Банк Восток", img: "vostok-icon.svg" },
+                                { name: "Банк Восток", img: "vostok-icon.svg" },
+                                { name: "MyBank365", img: "ico-my-bank-app.png" },
+                                { name: "АТ Полтава-Банк", img: "poltava-bank-icon.svg" },
+                                { name: "Таскомбанк", img: "TAS_logo_slogan.svg" },
+                                { name: "Юнекс Банк", img: "unexbank-icon.svg" },
                             ].map((bank) => (
                                 <div
                                     key={bank.name}
