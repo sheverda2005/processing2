@@ -72,6 +72,16 @@ export default function AdvertisementsContent() {
                                 { name: "Eurasian Bank", img: "Eurasian_Bank.svg" },
                                 { name: "Bereke Bank", img: "bereke.svg" },
                                 { name: "Altyn Bank", img: "Altyn.svg" },
+                                { name: "ПриватБанк", img: "privat.svg" },
+                                { name: "ПУМБ Банк", img: "Пумб_(2005).svg" },
+                                { name: "Monobank", img: "monobank-logo.png" },
+                                { name: "Sense Bank", img: "idA9lvb0oE_logos.jpeg" },
+                                { name: "izibank", img: "deb3d05b53bda7a55b478055e14cf9894dbe17e9eb30b46978017bb064a697a1.jpg" },
+                                { name: "Credit Agricole Bank", img: "Crédit_Agricole_2020_logo.svg.png" },
+                                { name: "UKRSIBBANK", img: "ukrsibbank-icon (1).svg" },
+                                { name: "Райффайзен Банк", img: "raiffeisen.svg" },
+                                { name: "Банк Кредит Дніпро", img: "credit-dnipro-icon.svg" },
+                                { name: "Alliance bank", img: "1725005151.png" },
                             ].map((bank) => (
                                 <div
                                     key={bank.name}
